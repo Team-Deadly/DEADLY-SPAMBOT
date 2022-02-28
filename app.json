@@ -1,6 +1,6 @@
 {
-    "name": "Deadly Spam Bot",
-    "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
+    "name": "Nyhna Spam Bot",
+    "description": "MOST POWERFUL + STABLE SPAM USERBOTS + FAST SPAM USERBOTS",
     "logo": "",
     "keywords": [
         "telegram",
@@ -9,9 +9,9 @@
         "deadlySameer",
         "SpamBots"
     ],
-    "repository": "https://t.me/Deadly-Fighters",
-    "website": "https://t.me/Deadly-Fighters",
-    "success_url": "https://t.me/deadly-fighters",
+    "repository": "https://t.me/Alcoholic-Krish",
+    "website": "https://t.me/Alcoholic-Krish",
+    "success_url": "https://t.me/NYHNA_SUPPORT",
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
@@ -20,7 +20,7 @@
       },
       "ALIVE_PIC": {
         "description": "your alive pic or video",
-        "value": "",
+        "value": "https://telegra.ph/file/fc88af8f79148f0e21140.jpg",
         "required": false
       },
       "API_HASH": {
@@ -41,42 +41,42 @@
       "BOT_TOKEN2": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN3": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN4": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN5": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN6": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN7": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN8": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN9": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN10": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
@@ -85,12 +85,12 @@
       },
        "SUDO_USER": {
             "description": "Sudo users id space by space",
-            "value": "",
+            "value": "5151463162",
             "required": false
         },
       "OWNER_ID": {
             "description": "owner Id",
-            "value": "",
+            "value": "5151463162",
             "required": true
         },
         "HEROKU_API_KEY": {

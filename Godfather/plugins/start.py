@@ -5,24 +5,24 @@ from telethon import events, Button
 from telethon.tl.custom import button
 from Godfather import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, ALIVE_PIC, OWNER_ID
 
-DEADLY_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+NYHNA_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/fc88af8f79148f0e21140.jpg"
 
-Deadly_Button = [
+Nyhna_Button = [
         [
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Deadly_Spam_Bot")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/NYHNA_SUPPORT")
         ],
         [
-        Button.url("• ᴍᴀɪɴᴛᴀɪɴ ʙʏ •", "https://t.me/Timesisnotwaiting")
+        Button.url("• ᴍᴀɪɴᴛᴀɪɴ ʙʏ •", "https://t.me/@DARK_LOVEROP")
         ]
         ]
                
-DeadlyX_Button = [
+NyhnaX_Button = [
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/deadly_spammer"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/deadly_spam_bot")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/DARK_LOVEROP"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/NYHNA_SUPPORT")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Godfatherakkii/DEADLY-SPAMBOT")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Alcoholic-Krish/NYHNA-SPAMBOT")
         ]
         ]
         
@@ -52,12 +52,12 @@ async def start(event):
        usermsg = f"**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**"
        if event.sender_id == OWNER_ID:
             await event.client.send_file(TheDeadly,
-                  DEADLY_IMG,
+                  NYHNA_IMG,
                   caption=ownermsg, 
-                  buttons=Deadly_Button)
+                  buttons=Nyhna_Button)
        else:
             await event.client.send_file(TheDeadly,
-                  DEADLY_IMG,
+                  NYHNA_IMG,
                   caption=usermsg, 
-                  buttons=DeadlyX_Button)
+                  buttons=NyhnaX_Button)
                 

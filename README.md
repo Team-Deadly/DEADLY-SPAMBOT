@@ -1,7 +1,7 @@
-# DEADLY SPAMBOT
+# ɴʏʜɴᴀ SPAMBOT
 
 <p align="center">
-  <img src="https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg">
+  <img src="https://telegra.ph/file/788c343205efe496bb79e.jpg">
 </p>
 
 
@@ -18,21 +18,17 @@
 
 ## 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 
                           
-<a href="https://t.me/Deadly_spam_bot"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a>
-<a href="https://t.me/Deadly_spambot"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-red.svg?logo=Telegram"></a>
+<a href="https://t.me/NYHNA_SUPPORT"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a>
+<a href="https://t.me/NYHNA_LOGS"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-red.svg?logo=Telegram"></a>
 
 -------------------------------------------------
 
 #### With Heroku
 
-<a href="https://www.heroku.com/deploy?template=https://github.com/ITS-ZAID/DEADLY-SPAMBOT">
+<a href="https://www.heroku.com/deploy?template=https://github.com/Alcoholic-Krish/NYHNA-SPAMBOT">
   <img src="https://www.herokucdn.com/deploy/button.svg">
 </a>
 
 
 -------------------------------------------------
 
-## credits 
-
-
-[THE RIZOEL](t.me/TheRiZoeL)

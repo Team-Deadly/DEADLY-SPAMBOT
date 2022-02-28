@@ -15,30 +15,30 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-ZAID_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+KRISH_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/fc88af8f79148f0e21140.jpg"
   
 
-DEADLY = "✯ 𝗗𝗲𝗮𝗱𝗹𝘆 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✯\n\n"
-DEADLY += f"═══════════════════\n"
-DEADLY += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
-DEADLY += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-DEADLY += f"• **ᴅᴇᴀᴅʟʏʙᴏᴛ ᴠᴇʀsɪᴏɴ**  : `{deadlyversion}`\n"
-DEADLY += f"═══════════════════\n\n"   
+NYHNA = "✯ 𝗡𝘆𝗵𝗻𝗮 𝗦𝗽𝗮𝗺 𝗔𝗮𝗴𝘆𝗮 ✯\n\n"
+NYHNA += f"═══════════════════\n"
+NYHNA += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
+NYHNA += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+NYHNA += f"• **ɴʏʜɴᴀʙᴏᴛ ᴠᴇʀsɪᴏɴ**  : `{deadlyversion}`\n"
+NYHNA += f"═══════════════════\n\n"   
 
                                   
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 async def alive(event):
   if event.sender_id in SUDO_USERS:
      await SAM.send_file(event.chat_id,
-                                  ZAID_PIC,
+                                  KRISH_PIC,
                                   caption=deadly,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/DEADLY_SPAMMER"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DEADLY_SPAM_BOT")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/NYHNA_LOGS"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/NYHNA_SUPPORT")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Godfatherakkii/SAVAGE-BOTFATHER-SPAM")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Alcoholic-Krish/NYHNA-SPAMBOT")
         ]
         ]
         )
@@ -83,11 +83,11 @@ def get_readable_time(seconds: int) -> str:
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        text = "Pong!"
+        text = "Pɪɴɢ Pᴏɴɢ  Tɪɴɢ Tᴏɴɢ Gɪʟʟɪ Cʜᴜ ᴄᴜᴘᴄᴀᴋᴇ ʜᴇʜᴇ 😂❤️"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
+        await event.edit(f"Pɪɴɢ Pᴏɴɢ  Tɪɴɢ Tᴏɴɢ Gɪʟʟɪ Cʜᴜ ᴄᴜᴘᴄᴀᴋᴇ ʜᴇʜᴇ 😂❤️\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
         
         
 
@@ -103,7 +103,7 @@ async def ping(e):
 @BOT9.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Rebooting ↪️**.. Please Wait Until It Starts Again"
+        text = "**Rᴜᴋᴏ ᴍᴇ ғʀᴇsʜ ʜᴏᴋᴇ ᴀᴀᴛᴀ ᴡᴀɪᴛ😁😁"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await BOT0.disconnect()
@@ -158,7 +158,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
 async def tb(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply("Adding user as a sudo...")
+        ok = await event.reply("ᴄʜᴀʟ ᴛᴜ ᴠ ᴍᴏᴊ ᴋᴀʀ ᴀʙ sᴜᴅᴏ ᴍᴇ ᴀᴅᴅ ʜᴏᴋᴇ")
         DEADLY = "SUDO_USER"
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -176,7 +176,7 @@ async def tb(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
+        await ok.edit(f"**Added `{target}` ** ᴄʜᴀʟ ᴛᴜ ᴠ ᴍᴏᴊ ᴋᴀʀ ᴀʙ sᴜᴅᴏ ᴍᴇ ᴀᴅᴅ ʜᴏᴋᴇ")
         heroku_var[DEADLY] = newsudo   
    
      

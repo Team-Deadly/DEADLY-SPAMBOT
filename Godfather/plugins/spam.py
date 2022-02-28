@@ -177,7 +177,7 @@ async def unlimitedspam(event):
         await event.client.send_message(event.chat, op)
         await asyncio.sleep(0.3)
     except Exception as e:
-      await event.reply("Oops!! Something went wrong, Report In @DNHxHELl\n\n" + str(e))
+      await event.reply("Oops!! Something went wrong, Report In @NYHNA_SUPPPORT\n\n" + str(e))
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%szaidspam(?: |$)(.*)" % hl))
@@ -198,7 +198,7 @@ async def pspam(e):
         if len(Deadly) == 1:
             counter = int(Deadly[0])
             if int(e.chat_id) in GROUP:
-                text = f"Sorry !! I can't spam here"
+                text = f"SED IDHAR SPAM NA KAR SAKTA  PA RHA"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                  porrn = random.choice(PORMS)
