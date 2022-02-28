@@ -36,7 +36,7 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in Deadly:
-                text = f"I can't raid on @deadly_spam_bot's Owner"
+                text = f"I can't raid on @NYHNA_SUPPORT's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."
@@ -59,7 +59,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in DEADLYSPAM:
-                text = f"I can't raid on @deadly_spam_bot's Owner"
+                text = f"I can't raid on @NYHNA_SUPPORT's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."
@@ -129,7 +129,7 @@ async def _(e):
             user_idd = a.id
             user_id = int(user_idd)
             if int(user_id) in Deadly:
-                text = f" can't raid on @deadly_spam_bot's Owner."
+                text = f" can't raid on @NYHNA_SUPPORT's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."            
@@ -142,7 +142,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                text = f"Activated replyraid"
+                text = f"LOL BETA AB LIKH KE DIKHA DE"
                 await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -150,7 +150,7 @@ async def _(e):
             user_idd = umser.id
             user_id = int(user_idd)
             if int(user_id) in DEADLYSPAM:
-                text = f" can't raid on @deadly_spam_bot's Owner."
+                text = f" can't raid on @NYHNA_SUPPORT's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."
@@ -163,7 +163,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                text = f"Activated Replyraid"
+                text = f"LOL BETA AB LIKH KE DIKHA DE"
                 await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
@@ -196,7 +196,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "CHAL JAA BETA JILE ZINDAGI"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -207,7 +207,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "CHAL JAA BETA JILE ZINDAGI"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -233,7 +233,7 @@ async def _(event):
              a = await event.client.get_entity(user)
              e = a.id
              if int(e) in DEADLYSPAM:
-                    text = f"I can't raid on @deadly_spam_bot's Owner"
+                    text = f"I can't raid on @NYHNA_SUPPORT's Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
              elif int(e) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."
@@ -257,7 +257,7 @@ async def _(event):
                b = await event.client.get_entity(a.sender_id)
                e = b.id
                if int(e) in DEADLYSPAM:
-                       text = f"I can't raid on @deadly_spam_bot's Owner"
+                       text = f"I can't raid on @NYHNA_SUPPORT's Owner"
                        await event.reply(text, parse_mode=None, link_preview=None )
                elif int(e) == OWNER_ID:
                        text = f"This guy is a owner Of this Bots."
