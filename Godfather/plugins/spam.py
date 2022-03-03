@@ -90,21 +90,21 @@ async def spam(e):
                           await smex.reply(message)
                      else:
                           await e.client.send_message(e.chat_id, message)
-                 await asyncio.sleep(0.3)
+                 await asyncio.sleep(0.1)
         elif e.reply_to_msg_id and smex.media:  
             counter = int(Deadly[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
                     await gifspam(e, smex) 
-                await asyncio.sleep(0.3)  
+                await asyncio.sleep(0.1)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
             counter = int(Deadly[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -175,7 +175,7 @@ async def unlimitedspam(event):
       x = None
       while x == None:
         await event.client.send_message(event.chat, op)
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(0.1)
     except Exception as e:
       await event.reply("Oops!! Something went wrong, Report In @DNHxHELl\n\n" + str(e))
 
@@ -206,7 +206,7 @@ async def pspam(e):
                      async with e.client.action(e.chat_id, "document"):
                          smex = await e.client.send_file(e.chat_id, porrn)
                          await gifspam(e, smex) 
-                     await asyncio.sleep(0.4)
+                     await asyncio.sleep(0.1)
         else:
             usage = f"**MODULE NAME : PORN SPAM** \n\n command: `.zaidspam <count>`"
             await e.reply(usage, parse_mode=None, link_preview=None )
