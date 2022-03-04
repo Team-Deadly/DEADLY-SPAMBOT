@@ -9,9 +9,9 @@
         "deadlySameer",
         "SpamBots"
     ],
-    "repository": "https://t.me/Deadly-Fighters",
-    "website": "https://t.me/Deadly-Fighters",
-    "success_url": "https://t.me/deadly-fighters",
+    "repository": "https://t.me/kirtimalhotra97",
+    "website": "https://t.me/kirtimalhotra97",
+    "success_url": "https://t.me/kirtimalhotra97",
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
